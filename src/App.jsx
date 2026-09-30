@@ -19,7 +19,7 @@ export default function App() {
         <label htmlFor="task">Nouvelle tâche</label>
         <div className="entry">
           <input id="task" value={text} onChange={(event) => setText(event.target.value)} />
-          <button type="submit">Ajouter</button>
+          <button type="submit">ajouter</button>
         </div>
       </form>
       <p aria-live="polite">{tasks.filter((task) => !task.done).length} tâche(s) restante(s)</p>
